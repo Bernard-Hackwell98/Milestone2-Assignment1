@@ -4,7 +4,8 @@ import '../styles/stopwatch.css'
 function StopWatch() {
   const [isRunning, setIsRunning] = useState<boolean>(false);
   const [elapsed, setElapsed] = useState<number>(0);
-  const intervalIdRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalIdRef = useRef<number | null>(null);
+
   const startTimeRef = useRef<number>(0);
 
   useEffect(() => {
