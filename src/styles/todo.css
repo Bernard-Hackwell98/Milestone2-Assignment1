@@ -1,0 +1,58 @@
+
+.ToDoList {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  body {
+    background-color: rgb(24, 22, 22);
+  }
+  
+  h1 {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px ;
+    font-size: 3em;
+    color: rgb(248, 246, 246);
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 5px 10px; /*Adjusted padding for smaller buttons*/
+    margin: 3px;
+    font-weight: bold;
+    background-color: rgb(224, 127, 8);
+    border-radius: 15%; /* Adjusted radius for a cleaner button look */
+    border: none;
+    transition: background-color 0.5s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 145, 0, 0.651);
+  }
+  
+  input[type="text"] {
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.203);
+    border-radius: 7px;
+  }
+  
+  ol {
+    padding: 0;
+    list-style: none; /* Removes default list styles */
+   }
+  
+  li {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid rgb(122, 107, 107);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  

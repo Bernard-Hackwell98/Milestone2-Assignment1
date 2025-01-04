@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0; /* Position it at the top of the screen */
+    left: 0; /* Align to the left edge of the screen */
+    width: 100%; /* Make it span the entire width */
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Add some padding */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Center the links horizontally */
+    gap: 20px; /* Add space between the links */
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    color: #0a0a0a;
+    font-size: 1.5rem;
+  }
+  
+  .navbar a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #fcfafa; /* Highlight link on hover */
+    border-radius: 4px; /* Optional: Round edges */
+  }
+  
